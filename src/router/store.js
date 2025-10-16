@@ -11,7 +11,7 @@ router.get("/", async (req, res) => {
 
 router.get("/:id", async(req, res) => {
   const storeId = req.params.id;
-  result = await stroeDetailRepository.findById(1);
+  result = await stroeDetailRepository.findById(storeId);
   return res.send(result)
 });
 
