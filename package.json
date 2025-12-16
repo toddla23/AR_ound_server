@@ -1,11 +1,12 @@
 {
-  "name": "ar_ound_server",
+  "name": "question_server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "nodemon src/app.js"
+    "dev" : "nodemon src/app.js",
+    "start": "node build/app.js"
   },
   "author": "",
   "license": "ISC",
